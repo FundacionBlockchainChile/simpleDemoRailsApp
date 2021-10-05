@@ -1,0 +1,18 @@
+<h1>Hello World</h1>
+
+<br>
+<% target="Chile" %>
+<%= "Hola desde #{target}" %>
+
+<% 5.times do |number| %>
+ <p>The number is <%= number %></p>
+<% end %>
+
+
+<% @array.each do |name| %>
+ <p>My friend is <%= name %></p>
+<% end %>
+
+<%= link_to "Hello Page", root_path %>
+<%= link_to "About Page", about_path %>
+<%= link_to "Contact Page", contact_path %>

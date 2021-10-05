@@ -1,0 +1,10 @@
+<h1>Contact Page</h1>
+
+<p>Country: <%= @country %></p>
+<p>Phone: <%= @phone %></p>
+
+
+
+<%= link_to "Hello Page", root_path %>
+<%= link_to "About Page", about_path %>
+<%= link_to "Contact Page", contact_path(:country => 'Chile') %>
