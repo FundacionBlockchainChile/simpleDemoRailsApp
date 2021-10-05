@@ -1,0 +1,12 @@
+<div class="container justify-content-center">
+<h1>User Details</h1>
+<div class="container d-flex justify-content-around row bg-dark" style="border-radius: 20px">  
+    <div class="card m-4 p-4" style="width: 20rem">
+      <img src="<%= @user.profile_image %>" class="card-img-top border" alt="..." style="border-radius: 50%">
+      <div class="card-body">
+        <h5 class="card-title"><%= @user.first_name %> <%= @user.last_name %></h5>
+        <p class="card-text">email <%= @user.email %></p>
+      </div>
+    </div>
+</div>
+</div>

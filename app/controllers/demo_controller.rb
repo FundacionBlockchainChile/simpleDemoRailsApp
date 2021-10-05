@@ -26,6 +26,8 @@ class DemoController < ApplicationController
     @users = User.all
   end
 
-
+  def userdetails
+    @user = User.find(params[:id])
+  end
 
 end
