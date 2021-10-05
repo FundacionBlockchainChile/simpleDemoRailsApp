@@ -7,9 +7,10 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 User.create([
-  { first_name: "Daniel", last_name: "Møller", email: "daniel.moller@example.com", password: "password",profile_image: "https://randomuser.me/api/portraits/med/men/56.jpg"},
-  { first_name: "Caroline", last_name: "Hall", email: "caroline.hall@example.com", password: "password",profile_image: "https://randomuser.me/api/portraits/med/women/92.jpg"},
-  { first_name: "Tonya", last_name: "Rose", email: "tonya.rose@example.com", password: "password",profile_image: "https://randomuser.me/api/portraits/med/women/24.jpg"},
-  { first_name: "Angeles", last_name: "Ferrer", email: "angeles.ferrer@example.com", password: "password",profile_image: "https://randomuser.me/api/portraits/med/women/95.jpg"},
-  { first_name: "Gabriel", last_name: "Roger", email: "gabriel.roger@example.com", password: "password",profile_image: "https://randomuser.me/api/portraits/med/men/71.jpg"}
+  { first_name: "Daniel", last_name: "Møller", email: "daniel.moller@example.com", password: "password",profile_image: "https://randomuser.me/api/portraits/men/73.jpg"},
+  { first_name: "Caroline", last_name: "Hall", email: "caroline.hall@example.com", password: "password",profile_image: "https://randomuser.me/api/portraits/women/57.jpg"},
+  { first_name: "Tonya", last_name: "Rose", email: "tonya.rose@example.com", password: "password",profile_image: "https://randomuser.me/api/portraits/women/76.jpg"},
+  { first_name: "Angeles", last_name: "Ferrer", email: "angeles.ferrer@example.com", password: "password",profile_image: "https://randomuser.me/api/portraits/women/0.jpg"},
+  { first_name: "Gabriel", last_name: "Roger", email: "gabriel.roger@example.com", password: "password",profile_image: "https://randomuser.me/api/portraits/men/71.jpg"},
+  { first_name: "Gabriel", last_name: "Roger", email: "gabriel.roger@example.com", password: "password",profile_image: "https://randomuser.me/api/portraits/men/77.jpg"}
 ])

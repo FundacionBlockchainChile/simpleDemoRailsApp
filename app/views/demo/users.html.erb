@@ -1,10 +1,14 @@
+<div class="container justify-content-center">
 <h1>Users</h1>
-
-<ul>
+<div class="container d-flex justify-content-around row bg-dark" style="border-radius: 20px">
   <% @users.each do |user| %>
-    <li>
-      <img src="<%= user.profile_image %>" alt="">
-      <p><%= user.first_name %> <%= user.last_name %>, email <%= user.email %></p>
-    </li>
+    <div class="card m-4 p-4" style="width: 20rem">
+      <img src="<%= user.profile_image %>" class="card-img-top border" alt="..." style="border-radius: 50%">
+      <div class="card-body">
+        <h5 class="card-title"><%= user.first_name %> <%= user.last_name %></h5>
+        <p class="card-text">email <%= user.email %></p>
+      </div>
+    </div>
   <% end %>
-</ul>
+</div>
+</div>
